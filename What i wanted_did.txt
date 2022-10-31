@@ -1,0 +1,20 @@
+Tower defense game maken 
+ 
+Gedaan: 
+- in 3d enemy pathing gemaakt 
+- Enemies toe gevoegd 
+- het in 2d overgezet 
+- Enorm overschat hoeveel tijd ik nog had 
+- Wavespawner gemaakt 
+- Healthbar gemaakt 
+- Towers gemaakt 
+- Mainmenu gemaakt 
+- Geprobeerd towers te implementeren, niet gelukt want kon niet vinden hoe, en lukte gewoon niet 
+ 
+Als ik meer tijd had zou ik hebben gemaakt: 
+•	Damage krijgen en geven 
+•	Werkende tower placement 
+•	Player movement 
+•	Different enemys 
+•	Different ways to place towers 
+•	Different types of towers 

@@ -40,9 +40,19 @@ public class enemyMoving : MonoBehaviour
         // registreren als de enemy alle checkpoints geraakt heeft, zo ja dan worden ze gedelete
         if (waypointIndex == waypoints.Length)
         {
-            Destroy(gameObject);
+            Destroy(this.gameObject);
         }
     }
     //niet vergeten in Unity de checkpoints toe te voegen
+
+    private void OnDestroy()
+    {
+        Debug.Log("Delete");
+        GameObject re = GameObject.FindGameObjectWithTag("Respawn");
+        if (re != null)
+        {
+            re.GetComponent<SpawningDiff>().spawnedEnemies.Remove(this.gameObject);
+        }
+    }
 
 }
