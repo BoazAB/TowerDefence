@@ -5,9 +5,6 @@ using UnityEngine;
 
 public class Pew : MonoBehaviour
 {
-
-    private bool enemyOnScreen = true;
-
     [SerializeField]
     private GameObject bulletPrefab;
 
